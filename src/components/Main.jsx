@@ -65,8 +65,8 @@ function Main() {
             ><input
               name="bestFeatures"
               type="checkbox"
-              value="It's yellow!"
-              checked={formData.bestFeatures.includes("It's yellow!")}
+              value="yellow"
+              checked={formData.bestFeatures.includes("yellow")}
               onChange={(event) => handleChecks(event, "bestFeatures")}
             />It's yellow!</label
           >
@@ -76,8 +76,8 @@ function Main() {
             ><input 
             name="bestFeatures" 
             type="checkbox" 
-            value="It squeaks!" 
-            checked={formData.bestFeatures.includes("It squeaks!")}
+            value="squeaks" 
+            checked={formData.bestFeatures.includes("squeaks")}
             onChange={(event) => handleChecks(event, "bestFeatures")} 
             />It squeaks!</label
           >
@@ -87,8 +87,8 @@ function Main() {
             ><input
               name="bestFeatures"
               type="checkbox"
-              value="It has a logo!"
-              checked={formData.bestFeatures.includes("It has a logo!")}
+              value="logo"
+              checked={formData.bestFeatures.includes("logo")}
               onChange={(event) => handleChecks(event, "bestFeatures")}
             />It has a logo!</label
           >
@@ -98,8 +98,8 @@ function Main() {
             ><input 
             name="bestFeatures" 
             type="checkbox" 
-            value="It's big!"
-            checked={formData.bestFeatures.includes("It's big!")}
+            value="big"
+            checked={formData.bestFeatures.includes("big")}
             onChange={(event) => handleChecks(event, "bestFeatures")}
              />It's big!</label
           >
@@ -114,44 +114,40 @@ function Main() {
             ><input
               name="worstBits"
               type="checkbox"
-              value="It's yellow!"
-              checked={formData.worstBits.includes("It's yellow!")}
+              value="yellow"
+              checked={formData.worstBits.includes("yellow")}
               onChange={(event) => handleChecks(event, "worstBits")}
-            />It's yellow!</label
-          >
+            />It's yellow!</label>
         </li>
         <li>
           <label
             ><input 
             name="worstBits" 
             type="checkbox" 
-            value="It squeaks!" 
-            checked={formData.worstBits.includes("It squeaks!")}
+            value="squeaks" 
+            checked={formData.worstBits.includes("squeaks")}
             onChange={(event) => handleChecks(event, "worstBits")} 
-            />It squeaks!</label
-          >
+            />It squeaks!</label>
         </li>
         <li>
           <label
             ><input
               name="worstBits"
               type="checkbox"
-              value="It has a logo!"
-              checked={formData.worstBits.includes("It has a logo!")}
+              value="logo"
+              checked={formData.worstBits.includes("logo")}
               onChange={(event) => handleChecks(event, "worstBits")}
-            />It has a logo!</label
-          >
+            />It has a logo!</label>
         </li>
         <li>
           <label
             ><input 
             name="worstBits" 
             type="checkbox" 
-            value="It's big!"
-            checked={formData.worstBits.includes("It's big!")}
+            value="big!"
+            checked={formData.worstBits.includes("big")}
             onChange={(event) => handleChecks(event, "worstBits")}
-             />It's big!</label
-          >
+             />It's big!</label>
         </li>
       </ul>
       </div>

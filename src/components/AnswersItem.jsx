@@ -5,7 +5,11 @@ const answersSet = {
   swimming: "Swimming",
   bathing: "Bathing",
   chatting: "Chatting",
-  noTime: "I don't like to spend time with it"
+  noTime: "I don't like to spend time with it",
+  yellow: "It's yellow!",
+  squeaks: "It squeaks!",
+  logo: "It has a logo!",
+  big: "It's big!"
 };
 
 function ItemsList({ list }) {
